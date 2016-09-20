@@ -10,7 +10,7 @@ url: "https://disperate.github.io/mlh-hackathon-boilerplate"
 
 # The ability to use custom themes.
 style:
-  theme: "original"
+  theme: "zentralhack"
 
 # This will help you track who's visiting your website.
 tracking:
