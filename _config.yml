@@ -6,7 +6,7 @@
 baseurl: ""
 
 # If you're using GitHub pages without custom domain, this is "[github_username].github.io". Prepend with "http://"
-url: "https://mlh.github.io/mlh-hackathon-boilerplate"
+url: "https://disperate.github.io/mlh-hackathon-boilerplate"
 
 # The ability to use custom themes.
 style:
@@ -22,16 +22,16 @@ social:
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "Example Hacks | 5/6 August 2016"
+  title:       "ZentralHack | 5/6/7 Mai 2017"
   description: "This is a sample hackathon website that you can use by following instructions on GitHub."
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
 # Event information.
 event:
-  name:        "Example Hacks"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
-  date:        "5 & 6 August 2016"
-  location:    "Holmdel, NJ, United States"
+  name:        "ZentralHack"
+  description: "The Hackathon in central Switzerland."
+  date:        "5 - 7 Mai 2017"
+  location:    "Rotkreuz, Switzerland"
 
   trust_badge:
     year:   "2017"  # season year
@@ -49,7 +49,7 @@ event:
 
   about:
     description: >
-      Example Hacks is a hackathon hosted at The University of Example.
+      ZentralHacks is a hackathon hosted at Hochschule Luzern – Informatik.
       This is your opportunity to describe your event, what to expect, where it is & anything unique to your event.
       Keep it straightforward, don't make it too long.
 
