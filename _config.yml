@@ -7,7 +7,7 @@ baseurl: ""
 
 # If you're using GitHub pages without custom domain, this is "[github_username].github.io". Prepend with "http://"
 url: "https://disperate.github.io/mlh-hackathon-boilerplate"
-# url: "http://127.0.0.1:4000/"
+#url: "http://127.0.0.1:4000/"
 
 # The ability to use custom themes.
 style:
@@ -19,7 +19,7 @@ tracking:
 
 # Let people connect & engage with you through social media.
 social:
-  twitter_handle: "MLHacks"
+  twitter_handle: "zentralhack"
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
@@ -51,8 +51,8 @@ event:
   about:
     description: >
       ZentralHacks is a hackathon hosted at Hochschule Luzern – Informatik.
-      This is your opportunity to describe your event, what to expect, where it is & anything unique to your event.
-      Keep it straightforward, don't make it too long.
+      It's a perfect opportunity for students at every level to get together and create awesome projects.
+      And, it's totaly free to attend.
 
   # Info Sections
   info:
@@ -60,32 +60,32 @@ event:
       - image: "images/image1.png"
         title: "LEARN."
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+          Learn something new. Motivated Students and Tech Talks will defenitly interduce you to something new.
       - image: "images/image2.png"
         title: "BUILD."
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+          Hack a app or a website within 40 hours in a small team.
       - image: "images/image3.png"
         title: "SHARE."
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+          Pitch your project infront of a awesome jury.
 
   # Frequently asked questions.
   faq:
     - question: "What is a hackathon?"
       answer: >
         A hackathon is an invention marathon. Students come together to build cool
-        software & hardware hacks over 24-48 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
+        software & hardware hacks over 40 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
     - question: "How much does it cost?"
       answer: >
-        Nothing. Attending a hackathon is free.
+        Nothing. Attending this hackathon is free.
     - question: "Do I need to be a student to attend?"
       answer: >
         Yes. Only students who are currently enrolled at a college/university or
-        have graduated within the past 12 months are eligible to attend.
+        have graduated within the past 12 months are eligible to attend. Are you in doubt if you are eligible, just [contact us]("mailto:sponsorship@website.com")
     - question: "Where is the event?"
       answer: >
-        The event is being hosted at [insert venue location here].
+        The event is being hosted at Suurstoffi 12 in Rotkreuz.
     - question: "What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
@@ -93,6 +93,30 @@ event:
     - question: "Is there a code of conduct?"
       answer: >
         Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
+
+  team:
+    sections:
+      - image: "https://randomuser.me/api/portraits/men/50.jpg"
+        title: "Julian Bigler"
+        description: >
+          Director, 3. Semester CS
+      - image: "https://randomuser.me/api/portraits/men/30.jpg"
+        title: "Name name"
+        description: >
+          Head of logistics
+      - image: "https://randomuser.me/api/portraits/women/50.jpg"
+        title: "Name name"
+        description: >
+          Head of finance
+      - image: "https://randomuser.me/api/portraits/women/78.jpg"
+        title: "Name name"
+        description: >
+          Head of marketing
+      - image: "https://randomuser.me/api/portraits/women/45.jpg"
+        title: "Name name"
+        description: >
+          Head of hacker experience
+
 
   # This is the message you'll receive once you've registered.
   register:

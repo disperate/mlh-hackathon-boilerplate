@@ -155,7 +155,7 @@ section {
   position: relative;
 }
 
-.info .item {
+.info .item{
   padding: 20px;
 }
 
@@ -171,6 +171,35 @@ section {
 }
 
 .info .item p {
+  font-size: 20px;
+}
+
+/*
+ * Team Section
+ */
+
+.team {
+  background-color: #fff;
+  margin-top: 15px;
+  padding: 100px 0;
+  position: relative;
+}
+
+.team .item{
+  padding: 20px;
+}
+
+.team .item h1 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  margin: 30px 0;
+}
+
+.team .item img {
+  max-width: 220px;
+}
+
+.team .item p {
   font-size: 20px;
 }
 

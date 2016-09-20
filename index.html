@@ -44,3 +44,20 @@ layout: default
     </div>
   </div>
 </section>
+
+<section class="team">
+  <div class="container">
+    <h1 class="text-center">Team</h1>
+    <div class="items row">
+      {% for section in site.event.team.sections %}
+        <div class="col-xs-12 col-sm-4 text-center">
+          <div class="item">
+            <img src="{{ section.image }}" />
+            <h2>{{ section.title }}</h2>
+            <p>{{ section.description }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
