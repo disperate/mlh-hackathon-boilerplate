@@ -12,7 +12,7 @@
 
 /*
  * Primary Blue: #44D5FF;
- * Dark Blue: #055ED8;
+ * Dark Blue: #0F2C34;
  * Primary Pink: #FF7FA8;
  */
 
@@ -22,7 +22,7 @@
 }
 
 body {
-  background-color: #FF6200;
+  background-color: #F5699C;
 }
 
 section {
@@ -44,12 +44,12 @@ section {
   z-index: 10000;
 }
 
-/* 
+/*
  * Hero Section
  */
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('http://www.routiers-luzern.ch/fileadmin/yag/12/450_luzern1.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('http://www.routiers-luzern.ch/fileadmin/yag/12/450_luzern1.jpg');
   background-size: cover;
   color: white;
   min-height: 110vh;
@@ -60,7 +60,7 @@ section {
 }
 
 .hero hr {
-  border-top: 15px solid #055ED8;
+  border-top: 15px solid #0F2C34;
   margin: 0;
   position: relative;
   top: -14px;
@@ -97,9 +97,9 @@ section {
 
 .hero .buttons a {
   background: #fff;
-  border: 10px solid #055ED8;
+  border: 10px solid #F5699C;
   border-radius: 40px;
-  color: #055ED8;
+  color: #F5699C;
   display: inline;
   font-family: Montserrat;
   font-size: 24px;
@@ -111,7 +111,7 @@ section {
 
 .hero .buttons a:hover,
 .hero .buttons a:focus {
-  background-color: #055ED8;
+  background-color: #F5699C;
   color: #fff;
   transition: all 0.2s ease;
 }
@@ -120,7 +120,7 @@ section {
   margin-right: 10px;
 }
 
-/* 
+/*
  * About Section
  */
 
@@ -132,7 +132,7 @@ section {
 }
 
 .about p {
-  color: #055ED8;
+  color: #0F2C34;
   font-weight: 600;
   font-size: 22px;
   line-height: 1.6em;
@@ -198,7 +198,7 @@ section {
 }
 
 .faq .question hr {
-  border-top: 8px solid #055ED8;
+  border-top: 8px solid #0F2C34;
   margin: 20px 0;
   width: 80px;
 }
@@ -219,7 +219,7 @@ section {
  */
 
 .footer {
-  background-color: #FF6200;
+  background-color: #F5699C;
   color: #fff;
   padding: 30px 0;
 }
