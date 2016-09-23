@@ -116,7 +116,14 @@ event:
         title: "Name name"
         description: >
           Head of hacker experience
-
+  
+  timeline:
+    days:
+      - day: "Saturday, Mai 6"
+        events:
+          - title: "Registration"
+            time: "9:00 - 10:00"
+            place: ""
 
   # This is the message you'll receive once you've registered.
   register:
