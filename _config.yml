@@ -130,20 +130,20 @@ event:
     sponsorus: >
       Interested in sponsoring us? Contact us via [sponsorship@zentralhack.ch]("mailto:sponsorship@zentralhack.ch")
     sections:
-      - image: "/images/logo-zuehlke.png"
+      - image: "images/logo-zuehlke.png"
         url: "https://www.zuehlke.com/ch/en/"
         description: >
           Zühlke Engineering AG
     sectionSupport:
-      - image: "/images/logo-stair.png"
+      - image: "images/logo-stair.png"
         url: "https://www.stair.ch"
         description: >
           Student Association Informatics Rotkreuz
-      - image: "/images/logo-hslu.svg"
+      - image: "images/logo-hslu.svg"
         url: "https://www.hslu.ch/de-ch/informatik/"
         description: >
           Hochschule Luzern – Informatik
-      - image: "/images/logo-mlh.png"
+      - image: "images/logo-mlh.png"
         url: "https://mlh.io/"
         description: >
 

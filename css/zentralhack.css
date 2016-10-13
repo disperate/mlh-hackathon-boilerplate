@@ -67,7 +67,7 @@ section {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://www.hslu.ch/-/media/campus/common/images/gallery/h/1%20medienmitteilungen%20und%20news/2014/hslu/departement%20informatik%20suurstoffi/h%20suurstoffi%202.jpg?h=800&la=de-ch');
 
 */
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('/images/header.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/header.jpg');
   background-size: cover;
   color: white;
   min-height: 110vh;
