@@ -29,6 +29,20 @@ section {
   overflow-x:hidden;
 }
 
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+
 /*
  * Trust Badge
  */
@@ -49,7 +63,11 @@ section {
  */
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('http://www.routiers-luzern.ch/fileadmin/yag/12/450_luzern1.jpg');
+  /*background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('http://www.routiers-luzern.ch/fileadmin/yag/12/450_luzern1.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://www.hslu.ch/-/media/campus/common/images/gallery/h/1%20medienmitteilungen%20und%20news/2014/hslu/departement%20informatik%20suurstoffi/h%20suurstoffi%202.jpg?h=800&la=de-ch');
+
+*/
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('/images/header.jpg');
   background-size: cover;
   color: white;
   min-height: 110vh;
@@ -67,7 +85,7 @@ section {
 }
 
 .hero .wrapper {
-  padding-top: 30vh;
+  padding-top: 14vh;
 }
 
 .hero .wrapper h1 {
@@ -90,6 +108,8 @@ section {
   font-weight: 200;
   padding-bottom: 35px;
 }
+
+
 
 .hero .buttons {
   margin: 40px 0;
@@ -148,30 +168,36 @@ section {
  * Info Section
  */
 
-.info {
+.sponsor {
   background-color: #fff;
   margin-top: 15px;
-  padding: 100px 0;
+  padding: 20px 0;
   position: relative;
+
 }
 
-.info .item{
+.sponsor .item{
   padding: 20px;
 }
 
-.info .item h1 {
+.sponsor h1 {
   font-family: 'Montserrat';
-  font-size: 45px;
   font-weight: 700;
-  margin: 20px 0;
+  margin: 120px 0 40px 0;
 }
 
-.info .item img {
-  max-width: 220px;
+.sponsor .item img {
+  max-width: 290px;
 }
 
-.info .item p {
+.sponsor .item p {
+  margin-top: 10px;
   font-size: 20px;
+}
+
+.sponsorItem{
+
+    margin: 0 auto;
 }
 
 /*
@@ -241,6 +267,35 @@ section {
   margin-bottom: -2px;
   margin-top: 40px;
   width: 300px;
+}
+
+/*
+* timeline seciton
+*/
+
+.timeline {
+  background-color: #fff;
+  margin-top: 15px;
+  padding: 100px 0;
+  position: relative;
+}
+
+.timeline h1 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  margin: 30px 0;
+}
+
+.timeline h2 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 13px;
+}
+
+.timeline p{
+  font-size: 18px;
+  line-height: 1.5em;
 }
 
 /*

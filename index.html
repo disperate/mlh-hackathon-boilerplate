@@ -12,22 +12,6 @@ layout: default
   </div>
 </section>
 
-<section class="info">
-  <div class="container">
-    <div class="items row">
-      {% for section in site.event.info.sections %}
-        <div class="col-xs-12 col-sm-4 text-center">
-          <div class="item">
-            <img src="{{ section.image }}" />
-            <h1>{{ section.title }}</h1>
-            <p>{{ section.description }}</p>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
 <section class="faq">
   <div class="container">
     <h1 class="text-center">FAQ</h1>
@@ -45,6 +29,61 @@ layout: default
   </div>
 </section>
 
+<section class="timeline">
+  <div class="container">
+    <h1 class="text-center">Timeline</h1>
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+
+        {% for item in site.event.timeline.days %}
+        <div class="question col-xs-12 col-sm-12 text">
+          <p class="col-xs-10 col-sm-offset-2">{{item.day}}</p>
+          {% for item in item.events %}
+            <p class="col-xs-4 col-sm-offset-2">{{ item.time}}</p><p class="col-xs-6"> // {{ item.title }}</p>
+          {% endfor %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sponsor">
+  <div class="container text-center">
+    <h1 class="text-center">Sponsors</h1>
+    <div class="row row-centered">
+            {% for section in site.event.sponsor.sections %}
+        <div class="col-xs-4 col-centered">
+          <div class="item">
+            <a href="{{ section.url }}" target="_blank">
+            <img src="{{ section.image }}" />
+          </a>
+          </div>
+        </div>
+      {% endfor %}
+
+    </div>
+    <p>
+      {{site.event.sponsor.sponsorus | markdownify}}
+    </p>
+    <h1 class="text-center">Supported by</h1>
+    <div class="row row-centered">
+        {% for sectionSupport in site.event.sponsor.sectionSupport %}
+          <div class="col-xs-12 col-sm-6 col-md-4 text-center  col-centered">
+            <div class="item">
+              <a href="{{ sectionSupport.url }}" target="_blank">
+              <img src="{{ sectionSupport.image }}" />
+            </a>
+            <p>{{ sectionSupport.description }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+  </div>
+
+</section>
+
+<!--
 <section class="team">
   <div class="container">
     <h1 class="text-center">Team</h1>
@@ -61,3 +100,4 @@ layout: default
     </div>
   </div>
 </section>
+-->

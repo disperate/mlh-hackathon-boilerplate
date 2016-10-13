@@ -6,8 +6,8 @@
 baseurl: ""
 
 # If you're using GitHub pages without custom domain, this is "[github_username].github.io". Prepend with "http://"
-url: "https://disperate.github.io/mlh-hackathon-boilerplate"
-#url: "http://127.0.0.1:4000/"
+#url: "https://disperate.github.io/mlh-hackathon-boilerplate"
+url: "http://127.0.0.1:4000/"
 
 # The ability to use custom themes.
 style:
@@ -15,7 +15,7 @@ style:
 
 # This will help you track who's visiting your website.
 tracking:
-  google_analytics: "UA-43729070-14"
+  google_analytics: "UA-85600861-1"
 
 # Let people connect & engage with you through social media.
 social:
@@ -23,15 +23,15 @@ social:
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "ZentralHack | 5/6/7 Mai 2017"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
+  title:       "Local Hack Day Rotkreuz | 3 Dec 2016"
+  description: "This is the site for the event Local Hack Day in Rotkreuz. Local Hack Day is a Hackathon. It takes place at the new campus of the Deparement Informatik der Fachhochschule Luzern, HSLU."
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
 # Event information.
 event:
-  name:        "ZentralHack"
-  description: "The Hackathon in central Switzerland."
-  date:        "5 - 7 Mai 2017"
+  name:        "Local Hack Day Rotkreuz"
+  description: "A one day Hackathon in central Switzerland."
+  date:        "3 Dec 2016"
   location:    "Rotkreuz, Switzerland"
 
   trust_badge:
@@ -43,32 +43,17 @@ event:
     links:
       - text: "Apply"
         my_mlh:
-          client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
+          url:    "https://localhackday.mlh.io/register/?id=rotkreuz&city_name=Rotkreuz%2C%20Switzerland"
           redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
       - text: "Sponsor"
-        href: "mailto:sponsorship@website.com"
+        href: "mailto:sponsorship@zentralhack.ch"
 
   about:
     description: >
-      ZentralHacks is a hackathon hosted at Hochschule Luzern – Informatik.
-      It's a perfect opportunity for students at every level to get together and create awesome projects.
-      And, it's totaly free to attend.
+      Local Hack Day is a 12 hour Hackathon hosted in Rotkreuz on the HSLU campus.
+      To goal is to bring together the local hackers to celebrate building awesome technology.
+      On December 3rd 2016, other students around the world will be simultaneously hosting their own Local Hack Day at their school, resulting in the single largest day of student hacking ever. Whether you're a seasoned hackathon veteran or have never been to a hackathon before, Local Hack Day is the best way to kick off the 2017 MLH Hackathon Season.
 
-  # Info Sections
-  info:
-    sections:
-      - image: "images/image1.png"
-        title: "LEARN."
-        description: >
-          Learn something new. Motivated Students and Tech Talks will defenitly interduce you to something new.
-      - image: "images/image2.png"
-        title: "BUILD."
-        description: >
-          Hack a app or a website within 40 hours in a small team.
-      - image: "images/image3.png"
-        title: "SHARE."
-        description: >
-          Pitch your project infront of a awesome jury.
 
   # Frequently asked questions.
   faq:
@@ -82,7 +67,7 @@ event:
     - question: "Do I need to be a student to attend?"
       answer: >
         Yes. Only students who are currently enrolled at a college/university or
-        have graduated within the past 12 months are eligible to attend. Are you in doubt if you are eligible, just [contact us]("mailto:sponsorship@website.com")
+        have graduated within the past 12 months are eligible to attend. Are you in doubt if you are eligible, just [contact us]("mailto:info@zentralhack.ch")
     - question: "Where is the event?"
       answer: >
         The event is being hosted at Suurstoffi 12 in Rotkreuz.
@@ -93,6 +78,7 @@ event:
     - question: "Is there a code of conduct?"
       answer: >
         Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
+
 
   team:
     sections:
@@ -116,14 +102,52 @@ event:
         title: "Name name"
         description: >
           Head of hacker experience
-  
+
   timeline:
     days:
-      - day: "Saturday, Mai 6"
+      - day: "Saturday, Dec 3th"
         events:
           - title: "Registration"
-            time: "9:00 - 10:00"
+            time: "8:30 - 9:00"
             place: ""
+          - title: "Start Hacking"
+            time: "9:00"
+            place: ""
+          - title: "Lunch"
+            time: "12:00 - 13:00"
+            place: ""
+          - title: "Dinner"
+            time: "18:00 - 19:00"
+            place: ""
+          - title: "Project Pitches, optional"
+            time: "20:00 - 21:00"
+            place: ""
+          - title: "End"
+            time: "21:00"
+            place: ""
+
+  sponsor:
+    sponsorus: >
+      Interested in sponsoring us? Contact us via [sponsorship@zentralhack.ch]("mailto:sponsorship@zentralhack.ch")
+    sections:
+      - image: "/images/logo-zuehlke.png"
+        url: "https://www.zuehlke.com/ch/en/"
+        description: >
+          Zühlke Engineering AG
+    sectionSupport:
+      - image: "/images/logo-stair.png"
+        url: "https://www.stair.ch"
+        description: >
+          Student Association Informatics Rotkreuz
+      - image: "/images/logo-hslu.svg"
+        url: "https://www.hslu.ch/de-ch/informatik/"
+        description: >
+          Hochschule Luzern – Informatik
+      - image: "/images/logo-mlh.png"
+        url: "https://mlh.io/"
+        description: >
+
+
 
   # This is the message you'll receive once you've registered.
   register:
