@@ -39,7 +39,7 @@ layout: default
         <div class="question col-xs-12 col-sm-12 text">
           <p class="col-xs-10 col-sm-offset-2">{{item.day}}</p>
           {% for item in item.events %}
-            <p class="col-xs-4 col-sm-offset-2">{{ item.time}}</p><p class="col-xs-6"> // {{ item.title }}</p>
+            <p class="col-xs-12 col-sm-4 col-sm-offset-2">{{ item.time}}</p><p class="col-xs-12 col-sm-6"> // {{ item.title }}</p>
           {% endfor %}
         </div>
         {% endfor %}
@@ -53,7 +53,7 @@ layout: default
     <h1 class="text-center">Sponsors</h1>
     <div class="row row-centered">
             {% for section in site.event.sponsor.sections %}
-        <div class="col-xs-4 col-centered">
+        <div class="col-xs-6 col-sm-6 col-md-4 col-centered">
           <div class="item">
             <a href="{{ section.url }}" target="_blank">
             <img src="{{ section.image }}" />
@@ -69,7 +69,7 @@ layout: default
     <h1 class="text-center">Supported by</h1>
     <div class="row row-centered">
         {% for sectionSupport in site.event.sponsor.sectionSupport %}
-          <div class="col-xs-12 col-sm-6 col-md-4 text-center  col-centered">
+          <div class="col-xs-12 col-sm-6 col-md-4 text-center col-centered">
             <div class="item">
               <a href="{{ sectionSupport.url }}" target="_blank">
               <img src="{{ sectionSupport.image }}" />

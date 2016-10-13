@@ -67,10 +67,10 @@ event:
     - question: "Do I need to be a student to attend?"
       answer: >
         Yes. Only students who are currently enrolled at a college/university or
-        have graduated within the past 12 months are eligible to attend. Are you in doubt if you are eligible, just [contact us]("mailto:info@zentralhack.ch")
+        have graduated within the past 12 months are eligible to attend. Are you in doubt if you are eligible, just <a href="mailto:info@zentralhack.ch">contact us<a/>.
     - question: "Where is the event?"
       answer: >
-        The event is being hosted at Suurstoffi 12 in Rotkreuz.
+        The event is being hosted at [Suurstoffi 12 in Rotkreuz](https://www.google.ch/maps/place/Suurstoffi+12,+6343+Rotkreuz+ZG).
     - question: "What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
@@ -128,7 +128,7 @@ event:
 
   sponsor:
     sponsorus: >
-      Interested in sponsoring us? Contact us via [sponsorship@zentralhack.ch]("mailto:sponsorship@zentralhack.ch")
+      Interested in sponsoring us? Contact us via <a href="mailto:sponsorship@zentralhack.ch">sponsorship@zentralhack.ch</a>
     sections:
       - image: "images/logo-zuehlke.png"
         url: "https://www.zuehlke.com/ch/en/"

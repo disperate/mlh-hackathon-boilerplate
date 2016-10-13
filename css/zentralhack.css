@@ -188,6 +188,8 @@ section {
 
 .sponsor .item img {
   max-width: 290px;
+  float: none;
+  margin: 0 auto;
 }
 
 .sponsor .item p {
