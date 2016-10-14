@@ -187,7 +187,8 @@ section {
 }
 
 .sponsor .item img {
-  max-width: 290px;
+  max-width: 100%;
+  width: 100%;
   float: none;
   margin: 0 auto;
 }

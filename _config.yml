@@ -51,8 +51,10 @@ event:
   about:
     description: >
       Local Hack Day is a 12 hour Hackathon hosted in Rotkreuz on the HSLU campus.
-      To goal is to bring together the local hackers to celebrate building awesome technology.
-      On December 3rd 2016, other students around the world will be simultaneously hosting their own Local Hack Day at their school, resulting in the single largest day of student hacking ever. Whether you're a seasoned hackathon veteran or have never been to a hackathon before, Local Hack Day is the best way to kick off the 2017 MLH Hackathon Season.
+      <br><br>
+      On December 3rd 2016, other students around the world will be simultaneously hosting their own Local Hack Day at their school, resulting in the single largest day of student hacking ever.
+      <br><br>
+      Whether you're a seasoned hackathon veteran or have never been to a hackathon before, Local Hack Day will be an unforgettable event.
 
 
   # Frequently asked questions.
@@ -60,17 +62,20 @@ event:
     - question: "What is a hackathon?"
       answer: >
         A hackathon is an invention marathon. Students come together to build cool
-        software & hardware hacks over 40 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
+        software & hardware hacks. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
     - question: "How much does it cost?"
       answer: >
         Nothing. Attending this hackathon is free.
+    - question: "Where is the event?"
+      answer: >
+        The event is being hosted at [Suurstoffi 12 in Rotkreuz](https://www.google.ch/maps/place/Suurstoffi+12,+6343+Rotkreuz+ZG).
+    - question: "Will there be food?"
+      answer: >
+        Yes, there is free food. We will provide food, snacks and drinks for everyone through the day.
     - question: "Do I need to be a student to attend?"
       answer: >
         Yes. Only students who are currently enrolled at a college/university or
         have graduated within the past 12 months are eligible to attend. Are you in doubt if you are eligible, just <a href="mailto:info@zentralhack.ch">contact us<a/>.
-    - question: "Where is the event?"
-      answer: >
-        The event is being hosted at [Suurstoffi 12 in Rotkreuz](https://www.google.ch/maps/place/Suurstoffi+12,+6343+Rotkreuz+ZG).
     - question: "What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
