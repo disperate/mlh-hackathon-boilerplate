@@ -6,7 +6,7 @@
 baseurl: ""
 
 # If you're using GitHub pages without custom domain, this is "[github_username].github.io". Prepend with "http://"
-url: "https://disperate.github.io/"
+url: "https://www.zentralhack.ch/"
 #url: "http://127.0.0.1:4000/"
 
 # The ability to use custom themes.
@@ -24,7 +24,7 @@ social:
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
   title:       "Local Hack Day Rotkreuz | 3 Dec 2016"
-  description: "This is the site for the event Local Hack Day in Rotkreuz. Local Hack Day is a Hackathon. It takes place at the new campus of the Deparement Informatik der Fachhochschule Luzern, HSLU."
+  description: "Local Hack Day is a one-day hackathon in Rotkreuz. It takes place from 9am to 9pm on the new campus of the Fachhochschule Luzern (HSLU) informatics department."
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
 # Event information.
