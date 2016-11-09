@@ -139,6 +139,14 @@ event:
         url: "https://www.zuehlke.com/ch/en/"
         description: >
           Zühlke Engineering AG
+      - image: "images/logo-bbv.svg"
+        url: "https://www.bbv.ch/"
+        description: >
+          bbv Software Services AG
+      - image: "images/logo-chio.png"
+        url: "http://www.chio.ch/"
+        description: >
+          Chio
     sectionSupport:
       - image: "images/logo-stair.png"
         url: "https://www.stair.ch"
@@ -151,7 +159,7 @@ event:
       - image: "images/logo-mlh.png"
         url: "https://mlh.io/"
         description: >
-
+          Major League Hacking
 
 
   # This is the message you'll receive once you've registered.
