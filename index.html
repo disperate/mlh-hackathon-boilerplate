@@ -52,11 +52,23 @@ layout: default
   <div class="container text-center">
     <h1 class="text-center">Sponsors</h1>
     <div class="row row-centered">
-            {% for section in site.event.sponsor.sections %}
-        <div class="col-xs-6 col-sm-6 col-md-4 col-centered">
+      {% for sponsors in site.event.sponsor.mainSponsor%}
+        <div class="col-xs-12 col-sm-12 col-md-6 col-centered">
           <div class="item">
-            <a href="{{ section.url }}" target="_blank">
-            <img src="{{ section.image }}" />
+            <a href="{{ sponsors.url }}" target="_blank">
+            <img src="{{ sponsors.image }}" />
+          </a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="row row-centered">
+      {% for sponsors in site.event.sponsor.sponsors %}
+        <div class="col-xs-6 col-sm-4 col-md-3 col-centered">
+          <div class="item">
+            <a href="{{ sponsors.url }}" target="_blank">
+            <img src="{{ sponsors.image }}" />
           </a>
           </div>
         </div>
@@ -74,7 +86,6 @@ layout: default
               <a href="{{ sectionSupport.url }}" target="_blank">
               <img src="{{ sectionSupport.image }}" />
             </a>
-            <p>{{ sectionSupport.description }}</p>
             </div>
           </div>
         {% endfor %}

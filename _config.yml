@@ -45,14 +45,14 @@ event:
         my_mlh:
           url:    "https://localhackday.mlh.io/register/?id=rotkreuz&city_name=Rotkreuz%2C%20Switzerland"
           redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
-      - text: "Sponsor"
-        href: "mailto:sponsorship@zentralhack.ch"
+      - text: "Event on Facebook"
+        href: "https://www.facebook.com/events/1785953534993056/"
 
   about:
     description: >
       Local Hack Day is a 12 hour Hackathon hosted in Rotkreuz on the HSLU campus.
       <br><br>
-      On December 3rd 2016, students around the world will be simultaneously hosting their own Local Hack Day at their school, resulting in the single largest day of student hacking ever.
+      On December 3rd 2016, students around the world will be simultaneously hosting their own Local Hack Day at over 100 schools, resulting in the single largest day of student hacking ever.
       <br><br>
       Whether you're a seasoned hackathon veteran or have never been to a hackathon before, Local Hack Day will be an unforgettable event for you.
 
@@ -82,7 +82,7 @@ event:
         We work with over 200 Member Events and empower over 70,000 students every year.
     - question: "Is there a code of conduct?"
       answer: >
-        Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
+        Yes there is. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
 
 
   team:
@@ -134,15 +134,16 @@ event:
   sponsor:
     sponsorus: >
       Interested in sponsoring us? Contact us via <a href="mailto:sponsorship@zentralhack.ch">sponsorship@zentralhack.ch</a>
-    sections:
-      - image: "images/logo-zuehlke.png"
-        url: "https://www.zuehlke.com/ch/en/"
-        description: >
-          Zühlke Engineering AG
+    mainSponsor:
       - image: "images/logo-bbv.svg"
         url: "https://www.bbv.ch/"
         description: >
           bbv Software Services AG
+    sponsors:
+      - image: "images/logo-zuehlke.png"
+        url: "https://www.zuehlke.com/ch/en/"
+        description: >
+          Zühlke Engineering AG
       - image: "images/logo-chio.png"
         url: "http://www.chio.ch/"
         description: >
