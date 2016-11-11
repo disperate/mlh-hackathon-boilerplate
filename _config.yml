@@ -144,6 +144,10 @@ event:
         url: "https://www.zuehlke.com/ch/en/"
         description: >
           Zühlke Engineering AG
+      - image: "images/logo-grunder.png"
+        url: "https://grunder.ch/"
+        description: >
+          Grunder Ingenieure AG
       - image: "images/logo-chio.png"
         url: "http://www.chio.ch/"
         description: >
