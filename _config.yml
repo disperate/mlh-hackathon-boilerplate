@@ -30,7 +30,7 @@ seo:
 # Event information.
 event:
   name:        "Local Hack Day Rotkreuz"
-  description: "A one day Hackathon in central Switzerland. <br><br> Registration closes <b>Tuesday 22.11.</b> at <b>18:00 CET</b>"
+  description: "A one day Hackathon in central Switzerland. <br><br> Registration closes on <b>Tuesday 22th</b> at <b>18:00 CET</b>"
   date:        "3 Dec 2016"
   location:    "Rotkreuz, Switzerland"
 
