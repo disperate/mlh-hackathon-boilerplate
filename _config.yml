@@ -30,7 +30,7 @@ seo:
 # Event information.
 event:
   name:        "Local Hack Day Rotkreuz"
-  description: "A one day Hackathon in central Switzerland. <br><br> Registration closes on <b>Tuesday 22th</b> at <b>18:00 CET</b>"
+  description: "A one day Hackathon in central Switzerland. <br><br> <b>Sorry, registration is closed</b>"
   date:        "3 Dec 2016"
   location:    "Rotkreuz, Switzerland"
 
@@ -41,10 +41,6 @@ event:
 
   hero:
     links:
-      - text: "Apply"
-        my_mlh:
-          url:    "https://localhackday.mlh.io/register/?id=rotkreuz&city_name=Rotkreuz%2C%20Switzerland"
-          redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
       - text: "Event on Facebook"
         href: "https://www.facebook.com/events/1785953534993056/"
 
@@ -148,10 +144,27 @@ event:
         url: "https://grunder.ch/"
         description: >
           Grunder Ingenieure AG
+    sponsorsSmall:
       - image: "images/logo-chio.png"
         url: "http://www.chio.ch/"
         description: >
-          Chio
+          chio
+      - image: "images/logo-eltony.jpg"
+        url: "http://www.tonymate.com/"
+        description: >
+          El Tony Mate
+      - image: "images/logo-monday.png"
+        url: "http://www.monday-energy.ch/"
+        description: >
+          Monday energy
+      - image: "images/logo-fridaybeer.png"
+        url: "http://friday-beer.ch/"
+        description: >
+          Friday Beer
+      - image: "images/logo-eichhof.png"
+        url: "http://www.eichhof.ch/"
+        description: >
+          Eichhof
     sectionSupport:
       - image: "images/logo-stair.png"
         url: "https://www.stair.ch"

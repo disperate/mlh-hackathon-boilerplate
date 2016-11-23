@@ -1,6 +1,6 @@
----
-layout: default
----
+--- 
+layout: default 
+--- 
 
 {% include hero.html %}
 
@@ -20,8 +20,7 @@ layout: default
         {% for item in site.event.faq %}
         <div class="question col-xs-12 col-sm-12">
           <h2>{{ item.question }}</h2>
-          <hr>
-          {{ item.answer | markdownify }}
+          <hr> {{ item.answer | markdownify }}
         </div>
         {% endfor %}
       </div>
@@ -39,7 +38,8 @@ layout: default
         <div class="question col-xs-12 col-sm-12 text">
           <p class="col-xs-10 col-sm-offset-2">{{item.day}}</p>
           {% for item in item.events %}
-            <p class="col-xs-12 col-sm-4 col-sm-offset-2">{{ item.time}}</p><p class="col-xs-12 col-sm-6"> // {{ item.title }}</p>
+          <p class="col-xs-6 col-sm-4 col-sm-offset-2">{{ item.time}}</p>
+          <p class="col-xs-6 col-sm-6"> // {{ item.title }}</p>
           {% endfor %}
         </div>
         {% endfor %}
@@ -53,62 +53,56 @@ layout: default
     <h1 class="text-center">Sponsors</h1>
     <div class="row row-centered">
       {% for sponsors in site.event.sponsor.mainSponsor%}
-        <div class="col-xs-12 col-sm-12 col-md-6 col-centered">
-          <div class="item">
-            <a href="{{ sponsors.url }}" target="_blank">
-            <img src="{{ sponsors.image }}" />
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-centered">
+        <div class="item">
+          <a href="{{ sponsors.url }}" target="_blank">
+            <img src="{{ sponsors.image }}" alt="{{ sponsors.description }}" />
           </a>
-          </div>
         </div>
+      </div>
       {% endfor %}
     </div>
 
     <div class="row row-centered">
       {% for sponsors in site.event.sponsor.sponsors %}
-        <div class="col-xs-6 col-sm-4 col-md-3 col-centered">
-          <div class="item">
-            <a href="{{ sponsors.url }}" target="_blank">
-            <img src="{{ sponsors.image }}" />
+      <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 col-centered">
+        <div class="item">
+          <a href="{{ sponsors.url }}" target="_blank">
+            <img src="{{ sponsors.image }}" alt="{{ sponsors.description }}" />
           </a>
-          </div>
         </div>
+      </div>
       {% endfor %}
 
     </div>
-    <p>
-      {{site.event.sponsor.sponsorus | markdownify}}
-    </p>
+
+    <div class="row row-centered">
+      <h1 class="text-center">Food & Drinks provided by</h1>
+      {% for sponsors in site.event.sponsor.sponsorsSmall %}
+      <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 col-centered">
+        <div class="item">
+          <a href="{{ sponsors.url }}" target="_blank">
+            <img src="{{ sponsors.image }}" alt="{{ sponsors.description }}" />
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+
+    {{site.event.sponsor.sponsorus | markdownify}}
     <h1 class="text-center">Supported by</h1>
     <div class="row row-centered">
-        {% for sectionSupport in site.event.sponsor.sectionSupport %}
-          <div class="col-xs-6 col-sm-6 col-md-4 text-center col-centered">
-            <div class="item">
-              <a href="{{ sectionSupport.url }}" target="_blank">
-              <img src="{{ sectionSupport.image }}" />
-            </a>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-  </div>
-
-</section>
-
-<!--
-<section class="team">
-  <div class="container">
-    <h1 class="text-center">Team</h1>
-    <div class="items row">
-      {% for section in site.event.team.sections %}
-        <div class="col-xs-12 col-sm-4 text-center">
-          <div class="item">
-            <img src="{{ section.image }}" />
-            <h2>{{ section.title }}</h2>
-            <p>{{ section.description }}</p>
-          </div>
+      {% for sectionSupport in site.event.sponsor.sectionSupport %}
+      <div class="col-xs-6 col-sm-6 col-md-4 text-center col-centered">
+        <div class="item">
+          <a href="{{ sectionSupport.url }}" target="_blank">
+            <img src="{{ sectionSupport.image }}" alt="{{ sponsors.description }}" />
+          </a>
         </div>
+      </div>
       {% endfor %}
     </div>
   </div>
+
 </section>
--->
